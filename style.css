@@ -7,6 +7,9 @@ section{
     height: 100vh;
     display: flex;
 }
+
+
+
 .left{
     width: 10%;
     height: 100vh;
@@ -40,6 +43,7 @@ section{
 .right{
     width: 90%;
     height: 100%;
+
 }
 .upper{
     width: 100%;
@@ -48,7 +52,10 @@ section{
     align-items: center;
     justify-content: center;
 }
-.upper>span>input{
+.pl-2{
+    padding-left: 10px;
+}
+.upper>input{
     width: 500px;
     height: 20px;
     border-radius: 15px;
