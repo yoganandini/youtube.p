@@ -1,0 +1,391 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+section{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+}
+.left{
+    width: 10%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.upperleft{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    padding-top: 20px;
+}
+.bottomleft{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: large;
+    font-weight: bold;
+}
+.bottomleft>h1{
+    color: darkslategray;
+}
+
+.right{
+    width: 90%;
+    height: 100%;
+}
+.upper{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.upper>span>input{
+    width: 500px;
+    height: 20px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.bottom{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    flex-direction: column;
+    
+}
+.bottom1{
+    width: 100%;
+    height: 350px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card1{
+    width: 250px;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card1>span>h1{
+    padding-right: 50px;
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: larger;
+}
+.card1>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card1>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile1{
+    background: url(https://img1.hotstarext.com/image/upload/f_auto,t_web_vl_2_5x/sources/r1/cms/prod/old_images/vertical/MOVIE/4358/1000164358/1000164358-v);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 145px;
+}
+.card2{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card2>span>h1{
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: large;
+    padding-right: 80px;
+}
+.card2>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card2>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile2{
+    background: url(https://c.ndtvimg.com/2022-07/mobpoqd8_kesariya_625x300_18_July_22.jpg?im=Resize=1230,900);
+    background-size: 35px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 138px;
+}
+.card3{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card3>span>h1{
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: 16px;
+    padding-left: 20px;
+}
+.card3>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card3>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile3{
+    background: url(https://i.scdn.co/image/ab67616d0000b273f71051ade6fcf9c1384645be);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 130px;
+}
+.card4{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card4>span>h1{
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: large;
+    padding-right: 130px;
+}
+.card4>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card4>span>p{
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile4{
+    background: url(https://play-lh.googleusercontent.com/nUzK8WjxbT-X59mlDYyPej6HO_j45Ou7qOIIgnJbTO6IzNA6iAU_kMdA38hHGONBv9c);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 130px;
+}
+.bottom1>span{
+    text-shadow: rgb(73, 107, 88) 1px 0 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-bottom: 300px;
+}
+
+.bottom2{
+    width: 100%;
+    height: 350px; 
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.card5{
+    width: 250px;
+    height: 350px; 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card5>span>h1{
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: large;
+    padding-right: 40px;
+}
+.card5>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card5>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile5{
+    background: url(https://www.billboard.com/wp-content/uploads/media/Justin-Bieber-2010-jay-leno-billboard-1548.jpg?w=942&h=623&crop=1);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 130px;
+}
+.card6{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card6>span>h1{
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: large;
+    padding-left: 30px;
+}
+.card6>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card6>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile6{
+    background: url(https://static.toiimg.com/thumb/msid-74111550,width-400,resizemode-4/74111550.jpg);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 135px;
+}
+.card7{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card7>span>h1{
+    text-shadow:  rgb(84, 56, 90) 1px 0 10px;
+    font-size: large;
+    padding-right: 60px;
+}
+.card7>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card7>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile7{
+    background: url(https://www.filmibeat.com/ph-big/2013/04/aashiqui-2_13668737201.jpg);
+    background-size: 30px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 130px;
+}
+.card8{
+    width: 250px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    position: relative;
+}
+.card8>span>h1{
+    text-shadow: rgb(84, 56, 90) 1px 0 10px;
+    font-size: large;
+    padding-right: 100px;
+}
+.card8>span>img{
+    width: 250px;
+    height: 150px;
+    border-radius: 10px;
+}
+.card8>span>p{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    padding-bottom: 50px;
+}
+.profile8{
+    background: url(https://i.ytimg.com/vi/GqWYJT-iMTw/maxresdefault.jpg);
+    background-size: 50px;
+    width: 30px;
+    height: 30px;
+    border-radius: 15px;
+    position: absolute;
+    left: -1px;
+    bottom: 120px;
+}
+.bottom2>span{
+    text-shadow: rgb(73, 107, 88) 1px 0 10px;
+    font-size: x-large;
+    font-weight: bolder;
+    padding-bottom: 300px;
+}
