@@ -6,8 +6,9 @@ section{
     width: 100%;
     height: 100vh;
     display: flex;
-}.left{
-    width: 10%;
+}
+.left{
+    width: 15%;
     height: 100vh;
     display: flex;
     align-items: center;
@@ -20,7 +21,17 @@ section{
     display: flex;
     align-items: start;
     justify-content: start;
-    padding-top: 20px;
+    padding-top: 30px;
+}
+.li-1{
+    width: 60px;
+    height: 30px;
+    margin-left: 12px;
+}
+.li-2{
+    display: flex;
+    justify-content: center;
+    padding-left: 20px;
 }
 .bottomleft{
     width: 100%;
@@ -32,8 +43,136 @@ section{
     font-size: large;
     font-weight: bold;
 }
-.bottomleft>h1{
-    color: darkslategray;
+.icon1{
+    display: flex;
+    align-items: center;
+}
+.icon1>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon1>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon2{
+    display: flex;
+    align-items: center;
+}
+.icon2>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon2>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon3{
+    display: flex;
+    align-items: center;
+}
+.icon3>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon3>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 5px;
+    padding-left: 10px;
+}
+.icon4{
+    display: flex;
+    align-items: center;
+}
+.icon4>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon4>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon5{
+    display: flex;
+    align-items: center;
+}
+.icon5>h1{
+    font-size: 18px;
+    padding: 12px;
+}
+.icon5>p{
+    width: 23px;
+    height: 23px;
+    margin-bottom: 0;
+}
+.icon6{
+    display: flex;
+    align-items: center;
+}
+.icon6>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon6>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon7{
+    display: flex;
+    align-items: center;
+}
+.icon7>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon7>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon8{
+    display: flex;
+    align-items: center;
+}
+.icon8>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon8>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon9{
+    display: flex;
+    align-items: center;
+}
+.icon9>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon9>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
+}
+.icon10{
+    display: flex;
+    align-items: center;
+}
+.icon10>h1{
+    font-size: large;
+    padding: 12px;
+}
+.icon10>p{
+    width: 25px;
+    height: 25px;
+    margin-bottom: 0;
 }
 .right{
     width: 90%;
