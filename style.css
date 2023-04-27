@@ -524,3 +524,6 @@ section{
     font-weight: bolder;
     padding-bottom: 300px;
 }
+.btn{
+    width: 50px;
+}
